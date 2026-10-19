@@ -1,0 +1,29 @@
+{
+  "id": "actor-list-cr",
+  "title": "Actor List CR Badges",
+  "description": "Displays D&D5e creature challenge ratings in the Actor Directory.",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Evan"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system"
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/actor-list-cr.js"
+  ],
+  "styles": [
+    "styles/actor-list-cr.css"
+  ]
+}
